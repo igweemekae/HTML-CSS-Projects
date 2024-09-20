@@ -1,0 +1,53 @@
+.master {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+.section-1 {
+    background-color: #021526;
+    color: white;
+}
+
+#logo {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#founder {
+    height: 200px;
+    width: 200px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.non-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #FCF8F3;
+}
+
+.header-3{
+    font-size: 9px;
+    display: flex;
+    justify-content: space-around;
+
+}
+#healthy,#selfdev,#career,#personfin {
+    height: 20px;
+    width:auto;
+}
